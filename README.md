@@ -1,5 +1,6 @@
 # Playwright-element-analyzer
-Analyzes all elements on any given set of URL's to establish similar locators to use in your basepage POM. 
+Analyzes all elements on any given set of URL's to establish similar locators to use in your basepage POM. <br/>
+Automatically creates a basepage.ts file, and generates a report based on its findings.
 
 ## Dependencies: <br/> 
 
@@ -18,6 +19,6 @@ Analyzes all elements on any given set of URL's to establish similar locators to
 
 
 ## How to use: 
-1. Configure URL's. Control F 'const urlsToAnalyze', then add your desired URL's, separated by a comma. <br/>
+1. Configure URL's. Control F 'URLs to analyze', then add your desired URL's, separated by a comma below '```const urls = [```'. <br/>
 2. Run ```npx ts-node element-analyzer.ts```
 3. View the generated pom-locators-report.json file
